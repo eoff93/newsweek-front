@@ -14,5 +14,7 @@
   font-size: 3.3em;
   background: #FF0500;
   color: #fff !important; }
+  .navbar-brand.navbar-brand:hover {
+    background: #ff0500; }
 
 /*# sourceMappingURL=main.css.map */
