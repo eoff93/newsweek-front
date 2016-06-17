@@ -6,7 +6,8 @@ html {
 
 .navbar {
   background: #181818;
-  height: 60px; }
+  height: 61px;
+  border-bottom: 1px solid #fff; }
   .navbar .navbar-nav li a {
     line-height: 36px;
     vertical-align: middle;
