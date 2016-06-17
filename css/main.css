@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 .navbar {
   background: #181818;
   height: 60px; }
@@ -8,13 +14,10 @@
     color: #fff; }
 
 .navbar-brand {
-  height: 60px;
-  line-height: 36px;
+  background: url(../img/newsweek-logo.png);
+  background-repeat: no-repeat;
   width: 275px;
-  font-size: 3.3em;
-  background: #FF0500;
-  color: #fff !important; }
-  .navbar-brand.navbar-brand:hover {
-    background: #ff0500; }
+  height: 60px;
+  background-size: 275px 60px; }
 
 /*# sourceMappingURL=main.css.map */
