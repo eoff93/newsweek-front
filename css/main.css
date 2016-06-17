@@ -13,6 +13,12 @@ html {
     vertical-align: middle;
     text-transform: uppercase;
     color: #fff; }
+    .navbar .navbar-nav li a:hover {
+      color: #fff;
+      opacity: 0.4; }
+    .navbar .navbar-nav li a:focus {
+      color: #fff;
+      opacity: 0.4; }
 
 .navbar-brand {
   background: url(../img/newsweek-logo.png);

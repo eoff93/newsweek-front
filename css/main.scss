@@ -11,7 +11,17 @@ html {
     vertical-align: middle;
     text-transform: uppercase;
     color: #fff;
+    &:hover {
+      color: #fff;
+      opacity: 0.4;
+    }
+    &:focus {
+      color: #fff;
+      opacity: 0.4;
+    }
+
   }
+
   background: #181818;
   height: 61px;
       border-bottom: 1px solid #fff;
