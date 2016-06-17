@@ -19,6 +19,9 @@ html {
     .navbar .navbar-nav li a:focus {
       color: #fff;
       opacity: 0.4; }
+  .navbar .navbar-right li:last-child {
+    height: 60px;
+    border-bottom: 4px solid red; }
 
 .navbar-brand {
   background: url(../img/newsweek-logo.png);

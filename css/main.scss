@@ -6,6 +6,10 @@ html {
 }
 
 .navbar {
+  background: #181818;
+  height: 61px;
+  border-bottom: 1px solid #fff;
+
   .navbar-nav li a {
     line-height: 36px;
     vertical-align: middle;
@@ -19,12 +23,13 @@ html {
       color: #fff;
       opacity: 0.4;
     }
-
   }
 
-  background: #181818;
-  height: 61px;
-      border-bottom: 1px solid #fff;
+  .navbar-right li:last-child {
+    height: 60px;
+    border-bottom: 4px solid red;
+  }
+
 }
 
 .navbar-brand {
