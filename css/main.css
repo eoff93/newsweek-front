@@ -4,6 +4,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+a {
+  text-decoration: none; }
+
 /*
   =======================
   Main Header
@@ -40,6 +43,12 @@ html {
 
 img {
   max-width: 100%; }
+
+.category a {
+  font-size: 22px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 /*
   =======================
