@@ -50,6 +50,9 @@ img {
   text-transform: uppercase;
   font-weight: bold; }
 
+.story h2 {
+  margin-top: 5px; }
+
 /*
   =======================
   Media Queries
