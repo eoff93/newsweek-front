@@ -35,6 +35,12 @@ html {
   height: 60px;
   background-size: 275px 60px; }
 
+.container {
+  width: 89%; }
+
+img {
+  max-width: 100%; }
+
 /*
   =======================
   Media Queries
