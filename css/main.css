@@ -30,4 +30,12 @@ html {
   height: 60px;
   background-size: 275px 60px; }
 
+@media (max-width: 1213px) {
+  .navbar-brand {
+    background-repeat: no-repeat;
+    background: url(../img/newsweek-letter.jpg);
+    background-size: 60px 60px;
+    height: 60px;
+    width: 60px; } }
+
 /*# sourceMappingURL=main.css.map */
