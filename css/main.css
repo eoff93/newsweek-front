@@ -4,6 +4,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+/*
+  =======================
+  Main Header
+  =======================
+*/
 .navbar {
   background: #181818;
   height: 61px;
@@ -30,6 +35,11 @@ html {
   height: 60px;
   background-size: 275px 60px; }
 
+/*
+  =======================
+  Media Queries
+  =======================
+*/
 @media (max-width: 1213px) {
   .navbar-brand {
     background-repeat: no-repeat;
