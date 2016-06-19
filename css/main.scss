@@ -71,7 +71,23 @@ img {
   padding: 15px;
 }
 
-.story h2 {
+.story {
+    a {
+      font-size: 16px;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 26px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 17px;
+    }
   margin-top: 5px;
 }
 

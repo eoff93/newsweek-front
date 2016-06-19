@@ -55,8 +55,17 @@ img {
   border-bottom: 1px solid lightgray;
   padding: 15px; }
 
-.story h2 {
+.story {
   margin-top: 5px; }
+  .story a {
+    font-size: 16px; }
+  .story h3 {
+    margin-top: 10px;
+    font-size: 26px; }
+  .story h4 {
+    font-size: 18px; }
+  .story p {
+    font-size: 17px; }
 
 /*
   =======================
