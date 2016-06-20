@@ -168,6 +168,7 @@ img {
 .story {
     font-family: "Source sans pro", sans-serif;
     font-weight: bold;
+    margin-top: 5px;
     a {
       font-size: 16px;
       line-height: 20px;
@@ -182,6 +183,7 @@ img {
 
     h4 {
       font-size: 18px;
+      margin-bottom: 0;
     }
 
     p {
@@ -189,7 +191,16 @@ img {
       line-height: 21px;
       font-weight: 400;
     }
-  margin-top: 5px;
+    ul {
+      padding-left: 0;
+      margin: 0;
+      position: relative;
+    }
+
+    .bullet {
+      display: inline-block;
+      padding-bottom: 0;
+    }
 }
 
 /*
