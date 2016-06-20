@@ -133,7 +133,8 @@ img {
 .story {
   font-family: "Source sans pro", sans-serif;
   font-weight: bold;
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-bottom: 48px; }
   .story a {
     font-size: 16px;
     line-height: 20px; }
