@@ -117,7 +117,8 @@ img {
 }
 
 .headline-main {
-  padding: 16px 90px 20px 90px;
+  padding: 16px 90px 8px 90px;
+  margin-bottom: 16px;
   font-family: "Source sans pro", sans-serif;
   font-weight: bold;
 
@@ -146,6 +147,8 @@ img {
   .bullet::before {
     background-color: #00B7FF;
   }
+
+  border-bottom: 1px solid lightgray;
 }
 
 .category a {

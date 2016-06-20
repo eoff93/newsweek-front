@@ -96,9 +96,11 @@ img {
   max-width: 100%; }
 
 .headline-main {
-  padding: 16px 90px 20px 90px;
+  padding: 16px 90px 8px 90px;
+  margin-bottom: 16px;
   font-family: "Source sans pro", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  border-bottom: 1px solid lightgray; }
   .headline-main h1 {
     font-weight: 700;
     margin-top: 3px;
