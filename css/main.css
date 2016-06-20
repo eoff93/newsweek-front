@@ -35,6 +35,25 @@ a {
     height: 60px;
     border-bottom: 4px solid red; }
 
+.bullet {
+  font-family: "Source sans pro", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none outside none;
+  padding: 15px 15px 15px 19px;
+  position: relative; }
+
+.bullet::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 0px;
+  background-color: #FF0500;
+  width: 8px;
+  height: 8px; }
+
 .navbar-brand {
   background: url(../img/newsweek-logo.png);
   background-repeat: no-repeat;
@@ -52,23 +71,6 @@ a {
     text-transform: uppercase;
     margin-bottom: 10px;
     position: relative; }
-  .headlines .bullet {
-    font-family: "Source sans pro", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    list-style: none outside none;
-    padding: 15px 15px 15px 19px;
-    position: relative; }
-  .headlines .bullet::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 21px;
-    left: 0px;
-    background-color: #FF0500;
-    width: 8px;
-    height: 8px; }
   .headlines button {
     background-color: #E5E5E5;
     color: #757575;
@@ -96,6 +98,10 @@ img {
   .headline-main p {
     font-weight: 600;
     font-size: 16px; }
+  .headline-main .bullet {
+    display: inline-block; }
+  .headline-main .bullet::before {
+    background-color: #00B7FF; }
 
 .category a {
   font-family: "Source sans pro", sans-serif;
