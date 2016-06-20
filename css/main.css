@@ -88,13 +88,18 @@ img {
   max-width: 100%; }
 
 .headline-main {
+  padding: 16px 90px 20px 90px;
   font-family: "Source sans pro", sans-serif;
   font-weight: bold; }
   .headline-main h1 {
-    font-weight: 700; }
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 3px; }
   .headline-main h3 {
     font-size: 27px;
-    line-height: 32px; }
+    line-height: 32px;
+    margin-top: 3px;
+    margin-bottom: 3px; }
   .headline-main p {
     font-weight: 600;
     font-size: 16px; }
