@@ -135,14 +135,18 @@ img {
   font-weight: bold;
   margin-top: 5px; }
   .story a {
-    font-size: 16px; }
+    font-size: 16px;
+    line-height: 20px; }
   .story h3 {
-    margin-top: 10px;
-    font-size: 26px; }
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 0;
+    line-height: 28px; }
   .story h4 {
     font-size: 18px; }
   .story p {
     font-size: 17px;
+    line-height: 21px;
     font-weight: 400; }
 
 /*
