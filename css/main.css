@@ -5,7 +5,8 @@ html {
   box-sizing: inherit; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #333; }
 
 /*
   =======================
@@ -37,6 +38,34 @@ a {
   width: 275px;
   height: 60px;
   background-size: 275px 60px; }
+
+.headlines {
+  position: relative; }
+  .headlines .bullet {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    list-style: none outside none;
+    padding: 15px 15px 15px 19px;
+    position: relative; }
+  .headlines .bullet::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    background-color: #FF0500;
+    width: 8px;
+    height: 8px; }
+  .headlines button {
+    background-color: #E5E5E5;
+    color: #757575;
+    height: 50px;
+    width: 100%;
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center; }
 
 .container {
   width: 89%; }
