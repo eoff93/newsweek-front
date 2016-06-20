@@ -16,7 +16,10 @@ a {
 .navbar {
   background: #181818;
   height: 61px;
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid #fff;
+  font-family: "Source sans pro", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px; }
   .navbar .navbar-nav li a {
     line-height: 36px;
     vertical-align: middle;
@@ -40,10 +43,19 @@ a {
   background-size: 275px 60px; }
 
 .headlines {
-  position: relative; }
+  position: relative;
+  margin: 30px 0; }
+  .headlines h3 {
+    font: 21px/22px serif;
+    letter-spacing: 0.25px;
+    color: #FF0500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative; }
   .headlines .bullet {
+    font-family: "Source sans pro", sans-serif;
+    font-weight: 600;
     font-size: 16px;
-    font-weight: bold;
     line-height: 20px;
     list-style: none outside none;
     padding: 15px 15px 15px 19px;
@@ -73,7 +85,20 @@ a {
 img {
   max-width: 100%; }
 
+.headline-main {
+  font-family: "Source sans pro", sans-serif;
+  font-weight: bold; }
+  .headline-main h1 {
+    font-weight: 700; }
+  .headline-main h3 {
+    font-size: 27px;
+    line-height: 32px; }
+  .headline-main p {
+    font-weight: 600;
+    font-size: 16px; }
+
 .category a {
+  font-family: "Source sans pro", sans-serif;
   font-size: 22px;
   color: red;
   text-transform: uppercase;
@@ -85,6 +110,8 @@ img {
   padding: 15px; }
 
 .story {
+  font-family: "Source sans pro", sans-serif;
+  font-weight: bold;
   margin-top: 5px; }
   .story a {
     font-size: 16px; }
@@ -94,7 +121,8 @@ img {
   .story h4 {
     font-size: 18px; }
   .story p {
-    font-size: 17px; }
+    font-size: 17px;
+    font-weight: 400; }
 
 /*
   =======================
