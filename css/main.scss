@@ -48,6 +48,12 @@ a {
 
 }
 
+.main-photo {
+  img {
+    border-bottom: 4px solid red;
+  }
+}
+
 .bullet {
   font-family: "Source sans pro", sans-serif;
   font-weight: 600;
